@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "109962772147",
+    "project_id": "symbiancadastro",
+    "storage_bucket": "symbiancadastro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109962772147:android:ee998223d3c973b4403ac6",
+        "android_client_info": {
+          "package_name": "br.senai.sp.jandira"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMfZDzvHqTP2eZ03KziqHxH6EylEJJenk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
