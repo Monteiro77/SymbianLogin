@@ -19,7 +19,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Lock
@@ -210,16 +209,15 @@ fun SignUpScreen(
                                         map["pic"] = uri.toString()
                                         imageUri = map.toString()
                                         fibaseFirestore.collection("images").add(map)
-                                        
-                                    }
+                                        Log.e("TESTE", "SignUpScreen: $imageUri")
+                                        signup(emailState, senhaState, imageUri)
 
+                                    }
 
                                 }
                             }
                         }
                     }
-
-
 
                 },
                 modifier = Modifier

@@ -7,9 +7,12 @@ object RetrofitFactory {
 
     val baseURL = "http://10.107.144.3:3000/"
 
+    val baseURL2 = "http://192.168.0.61:3000/"
+
+
     private var retrofitFactory = Retrofit
         .Builder()
-        .baseUrl(baseURL)
+        .baseUrl(baseURL2)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
